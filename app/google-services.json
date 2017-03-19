@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805834377855",
+    "firebase_url": "https://cvss-de544.firebaseio.com",
+    "project_id": "cvss-de544",
+    "storage_bucket": "cvss-de544.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805834377855:android:727d96124640733b",
+        "android_client_info": {
+          "package_name": "com.creation.tiagocv.cvss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805834377855-6pq1fc7ke4kj120cluqs8t8b9vp7gkl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYyA-iLrD72A6lJSwQt0k9lCLsMjdqS5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

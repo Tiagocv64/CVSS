@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CVSS</string>
+    <string name="facebook_application_id" translatable="false">1651455708482749</string>
+    <!-- Facebook Application ID, prefixed by 'fb'.  Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1651455708482749</string>
+    <string name="sign_in_cancelled">Login cancelado!</string>
+    <string name="no_internet_connection">Ligação com internet inexistent</string>
+    <string name="unknown_error">Um erro ocorreu</string>
+    <string name="unknown_sign_in_response">Erro no login</string>
 </resources>

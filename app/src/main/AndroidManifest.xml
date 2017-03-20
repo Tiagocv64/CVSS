@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/CVSSThemeNoActionBar"></activity>
+        <activity android:name=".PromocoesFragment"></activity>
     </application>
 
 </manifest>

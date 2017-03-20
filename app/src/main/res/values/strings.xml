@@ -7,4 +7,7 @@
     <string name="no_internet_connection">Ligação com internet inexistent</string>
     <string name="unknown_error">Um erro ocorreu</string>
     <string name="unknown_sign_in_response">Erro no login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

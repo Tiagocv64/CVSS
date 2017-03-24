@@ -16,6 +16,7 @@
         <item name="colorControlActivated">@color/material_lime_a700</item>
         <item name="colorControlHighlight">@color/material_orange_a200</item>
         <item name="android:windowBackground">@color/material_orange_50</item>
+        <item name="selectableItemBackground">@style/SelectableItemTheme</item>
     </style>
 
     <style name="CVSSThemeNoActionBar" parent="Theme.AppCompat.NoActionBar">
@@ -26,6 +27,10 @@
         <item name="colorControlActivated">@color/material_lime_a700</item>
         <item name="colorControlHighlight">@color/material_orange_a200</item>
         <item name="android:windowBackground">@color/material_orange_50</item>
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">#96f44437</item>
     </style>
 
 </resources>

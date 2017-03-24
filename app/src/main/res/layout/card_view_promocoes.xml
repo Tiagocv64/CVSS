@@ -2,13 +2,18 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/card_view_promocoes_root"
     android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
     android:layout_height="200dp"
     android:minHeight="200dp">
 
     <ImageView
+        android:id="@+id/card_view_promocoes_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/vacina"
+        android:background="@android:color/transparent"
         android:scaleType="centerCrop"/>
 
 
@@ -24,8 +29,7 @@
             android:gravity="left|top"
             android:textColor="@color/card_view_promocoes_text_color"
             android:textSize="34sp"
-            android:layout_margin="8dp"
-            android:text="Vacinas"/>
+            android:layout_margin="8dp"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -37,7 +41,6 @@
             android:id="@+id/card_view_promocoes_description"
             android:layout_width="match_parent"
             android:textColor="@color/card_view_promocoes_text_color"
-            android:text="Todas as vacinas estaram em promoção até dia 23 de Março"
             android:layout_height="match_parent"
             android:layout_gravity="left|center"
             android:layout_margin="8dp"

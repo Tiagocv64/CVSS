@@ -21,6 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
@@ -36,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
                             .setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build(),
                                     new AuthUI.IdpConfig.Builder(AuthUI.GOOGLE_PROVIDER).build(),
                                     new AuthUI.IdpConfig.Builder(AuthUI.FACEBOOK_PROVIDER).build()))
-                            .setLogo(R.drawable.cvss)
+                            .setLogo(R.mipmap.ic_cvss)
                             .setTheme(R.style.CVSSTheme)
                             .build(),
                     RC_SIGN_IN);
@@ -80,9 +81,10 @@ public class LoginActivity extends AppCompatActivity {
 
 
     void showSnackbar(String messageShow){
+
         View parentLayout = findViewById(R.id.activity_login);
-        Snackbar.make(parentLayout, messageShow, Snackbar.LENGTH_LONG)
-                .setActionTextColor(getResources().getColor(android.R.color.holo_red_light ))
-                .show();
+        Snackbar snackbar = Snackbar.make(parentLayout, messageShow, Snackbar.LENGTH_LONG)
+                .setActionTextColor(getResources().getColor(android.R.color.holo_red_light ));
+        snackbar.show();
     }
 }

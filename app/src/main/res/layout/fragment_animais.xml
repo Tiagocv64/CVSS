@@ -20,7 +20,6 @@
                 android:layout_height="150dp"
                 android:layout_gravity="top|left"
                 android:layout_margin="8dp"
-                android:src="@drawable/dog"
                 android:scaleType="centerCrop"/>
 
             <View
